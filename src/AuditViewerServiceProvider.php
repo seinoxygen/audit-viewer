@@ -66,7 +66,7 @@ class AuditViewerServiceProvider extends ServiceProvider
           ], 'view-components');
 
           $this->publishes([
-              __DIR__.'/../resources/lang' => resource_path('resources/lang'),
+              __DIR__.'/../resources/lang' => resource_path('lang'),
           ], 'translations');
     }
 }
